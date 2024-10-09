@@ -1,0 +1,26 @@
+Il faut git clone ce dépot, se mettre sur la branche auneor
+
+cd git
+git clone -b auneor https://github.com/Auneor/bobtemplates.odoo
+
+Installer mrbob:
+
+pip install mr.bob
+
+Il faut mettre un fichier dans son home ~/.mrbob
+avec ce contenu:
+
+[variables]
+addon.oca = False
+addon.readme = True
+copyright.name = Auneor Conseil
+copyright.year = 2024
+copyright.website = https://www.auneor-conseil.fr
+
+
+et dans son .bashrc
+
+alias bob_addon="mrbob ~/git/bobtemplates.odoo/bobtemplates/odoo/addon"
+alias bob_model="mrbob ~/git/bobtemplates.odoo/bobtemplates/odoo/model"
+alias bob_wizard="mrbob ~/git/bobtemplates.odoo/bobtemplates/odoo/wizard" 
+alias bob_test="mrbob ~/git/bobtemplates.odoo/bobtemplates/odoo/test" 
