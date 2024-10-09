@@ -24,3 +24,10 @@ alias bob_addon="mrbob ~/git/bobtemplates.odoo/bobtemplates/odoo/addon"
 alias bob_model="mrbob ~/git/bobtemplates.odoo/bobtemplates/odoo/model"
 alias bob_wizard="mrbob ~/git/bobtemplates.odoo/bobtemplates/odoo/wizard" 
 alias bob_test="mrbob ~/git/bobtemplates.odoo/bobtemplates/odoo/test" 
+
+
+Pour l'utilisation, pour creer un module on se met dans le repertoire du projet et
+bob_addon
+
+Pour hériter de res.partner ou créer un nouveau modèle, on se met dans le répertoire du module et
+bob_model
